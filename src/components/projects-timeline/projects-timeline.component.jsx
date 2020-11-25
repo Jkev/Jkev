@@ -2,6 +2,7 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
+import L_DiscordApp from "../../assets/img/projects/discord.png"
 import L_CovidTracker from "../../assets/img/projects/covidtracker.jpg";
 import L_NetflixClone from "../../assets/img/projects/netflixclone.png";
 import L_Newslatter from "../../assets/img/projects/newslatter.png";
@@ -9,9 +10,11 @@ import L_Airbnb from "../../assets/img/projects/airbnb.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
+
 // skills
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
+import L_REDUX from "../../assets/img/skills/Redux.png"
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import Image from "react-bootstrap/Image";
@@ -533,6 +536,138 @@ const TimeLine = () => {
           </ImageEvent>
 
           {/* Project: Portfolio using Django */}
+          {/* Project: Discord Clone */}
+          <ImageEvent
+            date="24/11/2020"
+            className="text-center"
+            text="Discord Clone"
+            src={L_DiscordApp}
+            alt="Discord Clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This website is a clone of
+                        Discord App.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Real-time Messages</li>
+                          <li>Authentication</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Html 5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="Javascript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Javascript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="Git"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://discord-34515.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/Jkev/discord-app"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
         </Events>
       </Timeline>
     </div>
