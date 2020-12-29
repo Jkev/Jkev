@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd981358284c12256f9ec77e5f81d75a",
+    "revision": "0a1832ebe832046dc474d67a89a25f3f",
     "url": "/Jkev/index.html"
   },
   {
-    "revision": "c08520b2c43c921e0e17",
+    "revision": "be783621c0282c97bba9",
     "url": "/Jkev/static/css/main.dc0cc47c.chunk.css"
   },
   {
-    "revision": "7a5d0420344da5e5803c",
-    "url": "/Jkev/static/js/2.addae683.chunk.js"
+    "revision": "35c5edf96b6f4537f5b9",
+    "url": "/Jkev/static/js/2.b4cfb02e.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/Jkev/static/js/2.addae683.chunk.js.LICENSE.txt"
+    "url": "/Jkev/static/js/2.b4cfb02e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c08520b2c43c921e0e17",
-    "url": "/Jkev/static/js/main.7085d1fb.chunk.js"
+    "revision": "be783621c0282c97bba9",
+    "url": "/Jkev/static/js/main.146a8baf.chunk.js"
   },
   {
     "revision": "3723626ebe5331249cd6",
     "url": "/Jkev/static/js/runtime-main.520ca182.js"
+  },
+  {
+    "revision": "8251fe76d7487a28b07603515b300964",
+    "url": "/Jkev/static/media/Redux.8251fe76.png"
   },
   {
     "revision": "6a403a0894517cbda7e87816eb23dd54",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3707da3c6a394c7ee2523273f8d98a25",
     "url": "/Jkev/static/media/css3.3707da3c.svg"
+  },
+  {
+    "revision": "2e6d3d79687bde339f6a752cf30aa3a3",
+    "url": "/Jkev/static/media/discord.2e6d3d79.png"
   },
   {
     "revision": "c6bab64b183f96aa47077fd3db37afd0",

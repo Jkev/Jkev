@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/Jkev/static/css/main.dc0cc47c.chunk.css",
-    "main.js": "/Jkev/static/js/main.7085d1fb.chunk.js",
-    "main.js.map": "/Jkev/static/js/main.7085d1fb.chunk.js.map",
+    "main.js": "/Jkev/static/js/main.146a8baf.chunk.js",
+    "main.js.map": "/Jkev/static/js/main.146a8baf.chunk.js.map",
     "runtime-main.js": "/Jkev/static/js/runtime-main.520ca182.js",
     "runtime-main.js.map": "/Jkev/static/js/runtime-main.520ca182.js.map",
-    "static/js/2.addae683.chunk.js": "/Jkev/static/js/2.addae683.chunk.js",
-    "static/js/2.addae683.chunk.js.map": "/Jkev/static/js/2.addae683.chunk.js.map",
+    "static/js/2.b4cfb02e.chunk.js": "/Jkev/static/js/2.b4cfb02e.chunk.js",
+    "static/js/2.b4cfb02e.chunk.js.map": "/Jkev/static/js/2.b4cfb02e.chunk.js.map",
     "index.html": "/Jkev/index.html",
-    "precache-manifest.f6b109ddc8d7cc360e3f36b2c71c8065.js": "/Jkev/precache-manifest.f6b109ddc8d7cc360e3f36b2c71c8065.js",
+    "precache-manifest.6c3548f29db1e68c325d881dae5ef087.js": "/Jkev/precache-manifest.6c3548f29db1e68c325d881dae5ef087.js",
     "service-worker.js": "/Jkev/service-worker.js",
     "static/css/main.dc0cc47c.chunk.css.map": "/Jkev/static/css/main.dc0cc47c.chunk.css.map",
-    "static/js/2.addae683.chunk.js.LICENSE.txt": "/Jkev/static/js/2.addae683.chunk.js.LICENSE.txt",
+    "static/js/2.b4cfb02e.chunk.js.LICENSE.txt": "/Jkev/static/js/2.b4cfb02e.chunk.js.LICENSE.txt",
+    "static/media/Redux.png": "/Jkev/static/media/Redux.8251fe76.png",
     "static/media/airbnb.png": "/Jkev/static/media/airbnb.6a403a08.png",
     "static/media/background.webp": "/Jkev/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/Jkev/static/media/background.e95d0563.webp",
     "static/media/bootstrap-4.svg": "/Jkev/static/media/bootstrap-4.ffded238.svg",
     "static/media/covidtracker.jpg": "/Jkev/static/media/covidtracker.c07556c3.jpg",
     "static/media/css3.svg": "/Jkev/static/media/css3.3707da3c.svg",
+    "static/media/discord.png": "/Jkev/static/media/discord.2e6d3d79.png",
     "static/media/express.svg": "/Jkev/static/media/express.c6bab64b.svg",
     "static/media/git-icon.svg": "/Jkev/static/media/git-icon.1190a19c.svg",
     "static/media/github-api.svg": "/Jkev/static/media/github-api.0555bfb7.svg",
@@ -40,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.520ca182.js",
-    "static/js/2.addae683.chunk.js",
+    "static/js/2.b4cfb02e.chunk.js",
     "static/css/main.dc0cc47c.chunk.css",
-    "static/js/main.7085d1fb.chunk.js"
+    "static/js/main.146a8baf.chunk.js"
   ]
 }
